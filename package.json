@@ -1,0 +1,25 @@
+{
+  "name": "codingcamp-30-jun-25-anotherkinn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Revou-Coding-Camp/codingcamp-30-jun-25-AnotherKinn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Revou-Coding-Camp/codingcamp-30-jun-25-AnotherKinn/issues"
+  },
+  "homepage": "https://github.com/Revou-Coding-Camp/codingcamp-30-jun-25-AnotherKinn#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}

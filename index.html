@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <!-- Tambahkan di head -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <nav class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-xl font-bold text-blue-600">Aji's Portofolio</div>
+            <ul class="flex space-x-4 text-sm font-semibold text-gray-700">
+                <li>
+                    <a href="#" class="hover:text-blue-600">Home</a>
+                </li>
+                <li>
+                    <a href="#profile" class="hover:text-blue-600">Our Profile</a>
+                </li>
+                <li>
+                    <a href="#portofolio" class="hover:text-blue-600">Portofolio</a>
+                </li>
+                <li>
+                    <a href="#form" class="hover:text-blue-600">Message Us</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Sambutan -->
+        <section class="text-center py-10 bg-gray-50">
+            <h1 id="hiName" class="text-3xl font-bold text-gray-800">Hi User, Welcome to Website</h1>
+            <p class="text-gray-600 mt-2">Ini adalah web latihan pertama</p>
+        </section>
+        <!-- Hero section -->
+        <section class="h-64 flex items-center justify-center">
+            <!-- <img src="./assets/image.png" class="rounded bg-bottom" alt=""> -->
+        </section>
+    </header>
+
+    <main>
+
+
+        <!-- Section headquarter -->
+        <section class="py-12 bg-gray-50 text-center">
+            <h2 class="text-xl font-semibold mb-6">Our Headquarter</h2>
+            <div class="flex justify-center gap-8">
+                <div class="w-24 h-24 rounded-full border border-gray-300 mx-auto hover:scale-110 transition">
+                    <p class="mt-2">Jakarta</p>
+                </div>
+                <div class="w-24 h-24 rounded-full border border-gray-300 mx-auto hover:scale-110 transition">
+                    <p class="mt-2">Bandung</p>
+                </div>
+                <div class="w-24 h-24 rounded-full border border-gray-300 mx-auto hover:scale-110 transition">
+                    <p class="mt-2">Surabaya</p>
+                </div>
+            </div>
+        </section>
+
+       
+
+
+
+        <!-- Tentang Aji -->
+        <section id="profile" class="py-12 px-6 max-w-5xl mx-auto grid grid-cols-2 gap-10 items-center">
+            <div class="">
+                <img class="w-50 h-50 bg-bottom rounded-full ml-10" src="./assets/image.png" alt="">
+            </div>
+
+            <div class="p-10 border text-justify border-gray-200 rounded-md shadow-md ">
+                <h2 class="text-2xl font-bold text-blue-600 mb-4">Tentang Saya</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Saya adalah <strong>Aji Pamungkas</strong>, siswa kelas 10 jurusan <strong>Rekayasa Perangkat Lunak
+                        (RPL)</strong> di <strong>SMKN 1 Gunungputri</strong>. Saya memiliki ketertarikan di bidang
+                    teknologi, khususnya dalam pengembangan website dan aplikasi. Saya juga sedang mengikuti program
+                    bootcamp untuk memperdalam keahlian front-end dan back-end development.
+                </p>
+            </div>
+        </section>
+
+        <!-- Tentang Sekolah -->
+        <section class="bg-gray-50 py-12 px-20 grid grid-cols-2 items-center gap-10 text-justify ">
+
+            <div class="max-w-4xl mx-auto p-10 border border-gray-200 rounded-md shadow-md ">
+                <h2 class="text-2xl font-bold text-blue-600 mb-4">Tentang Sekolah</h2>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    <strong>SMKN 1 Gunungputri</strong> adalah sekolah kejuruan yang terletak di Kabupaten Bogor.
+                    Sekolah ini memiliki berbagai jurusan teknik, salah satunya adalah jurusan <strong>RPL</strong> yang
+                    membekali siswa dengan keahlian dalam dunia pemrograman, pengembangan perangkat lunak, dan teknologi
+                    informasi.
+                </p>
+                <p class="text-gray-700 leading-relaxed">
+                    Dengan fasilitas yang lengkap dan guru yang berkompeten, SMKN 1 Gunungputri menjadi tempat yang
+                    ideal bagi siswa yang ingin mempersiapkan diri menghadapi dunia industri maupun melanjutkan ke
+                    perguruan tinggi.
+                </p>
+            </div>
+            <div>
+                <img class="rounded-md" src="../assets/image.png" alt="">
+            </div>
+        </section>
+
+        <!-- Visi dan Misi -->
+        <section class="py-12 px-6 max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold text-blue-600 mb-4 text-center">Visi & Misi Sekolah</h2>
+
+            <div class="grid grid-cols-2 items-center py-5 px-10 gap-8">
+
+                <div class="h-90 p-10 border border-gray-200 rounded-md shadow-md">
+                    <h3 class="text-lg font-semibold mb-2">Visi</h3>
+                    <p class="text-gray-700 italic">“Menjadi Sekolah Menengah Kejuruan yang Unggul dan Kompetitif di
+                        Bidang Teknologi dan Kejuruan.”</p>
+                </div>
+
+                <div class="h-90 p-10 border border-gray-200 rounded-md shadow-md">
+                    <h3 class="text-lg font-semibold mb-2 ">Misi</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Menyelenggarakan pendidikan kejuruan yang berkualitas dan berbasis industri.</li>
+                        <li>Menumbuhkan sikap profesional, tanggung jawab, dan semangat belajar sepanjang hayat.</li>
+                        <li>Membekali peserta didik dengan keterampilan dan pengetahuan teknologi terkini.</li>
+                        <li>Menjalin kerjasama dengan dunia usaha dan industri.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="portofolio" class="py-12 px-6 max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-blue-600 mb-4">Tentang Saya</h2>
+            <p class="text-gray-700 leading-relaxed">
+                Saya adalah Aji Pamungkas, siswa SMKN 1 Gunungputri jurusan RPL yang aktif mengikuti berbagai bootcamp
+                untuk meningkatkan keahlian di bidang front-end dan back-end development. Berikut beberapa sertifikat
+                dari pelatihan yang telah saya ikuti:
+            </p>
+        </section>
+
+        <!-- Galeri Sertifikat -->
+        <section class="py-10 px-6 max-w-6xl mx-auto">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Sertifikat Bootcamp</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+                <!-- Card Sertifikat -->
+                <div class="cursor-pointer group" onclick="showModal('./assets/sertifikat_dicoding/memulai_dasar_pemrograman.jpg')">
+                    <div class="overflow-hidden rounded shadow-lg">
+                        <img src="./assets/sertifikat_dicoding/memulai_dasar_pemrograman.jpg" alt="Sertifikat 1"
+                            class="group-hover:scale-105 transition-transform duration-300 w-full h-48 object-cover">
+                    </div>
+                    <p class="mt-2 text-center text-sm text-gray-600">Memulai Dasar Pemrograman untuk Menjadi Pengembang Software</p>
+                </div>
+
+                <!-- Card Sertifikat -->
+                <div class="cursor-pointer group" onclick="showModal('sertifikat2.jpg')">
+                    <div class="overflow-hidden rounded shadow-lg">
+                        <img src="img/sertifikat2.jpg" alt="Sertifikat 2"
+                            class="group-hover:scale-105 transition-transform duration-300 w-full h-48 object-cover">
+                    </div>
+                    <p class="mt-2 text-center text-sm text-gray-600">Pengenalan ke Logika Pemrograman (Programming Logic 101)</p>
+                </div>
+
+                <!-- Card Sertifikat -->
+                <div class="cursor-pointer group" onclick="showModal('sertifikat2.jpg')">
+                    <div class="overflow-hidden rounded shadow-lg">
+                        <img src="img/sertifikat2.jpg" alt="Sertifikat 2"
+                            class="group-hover:scale-105 transition-transform duration-300 w-full h-48 object-cover">
+                    </div>
+                    <p class="mt-2 text-center text-sm text-gray-600">Belajar Dasar Pemrograman Web</p>
+                </div>
+
+                <!-- Card Sertifikat -->
+                <div class="cursor-pointer group" onclick="showModal('sertifikat2.jpg')">
+                    <div class="overflow-hidden rounded shadow-lg">
+                        <img src="img/sertifikat2.jpg" alt="Sertifikat 2"
+                            class="group-hover:scale-105 transition-transform duration-300 w-full h-48 object-cover">
+                    </div>
+                    <p class="mt-2 text-center text-sm text-gray-600">Belajar Dasar Git dengan Github</p>
+                </div>
+
+                <!-- Card Sertifikat -->
+                <div class="cursor-pointer group" onclick="showModal('sertifikat2.jpg')">
+                    <div class="overflow-hidden rounded shadow-lg">
+                        <img src="img/sertifikat2.jpg" alt="Sertifikat 2"
+                            class="group-hover:scale-105 transition-transform duration-300 w-full h-48 object-cover">
+                    </div>
+                    <p class="mt-2 text-center text-sm text-gray-600">Belajar Dasar Pemrograman Javascript</p>
+                </div>
+
+                <!-- Card Sertifikat -->
+                <div class="cursor-pointer group" onclick="showModal('sertifikat2.jpg')">
+                    <div class="overflow-hidden rounded shadow-lg">
+                        <img src="img/sertifikat2.jpg" alt="Sertifikat 2"
+                            class="group-hover:scale-105 transition-transform duration-300 w-full h-48 object-cover">
+                    </div>
+                    <p class="mt-2 text-center text-sm text-gray-600">Belajar Membuat Front-End Web untuk Pemula</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Modal Viewer Sertifikat -->
+        <div id="modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+            <div class="relative max-w-3xl w-full mx-4">
+                <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl">&times;</button>
+                <img id="modalImage" src="" alt="Preview Sertifikat"
+                    class="w-full rounded shadow-lg border-4 border-white" />
+            </div>
+        </div>
+
+
+         <h2 id="form" class="text-gray-700 text-xl text-center font-semibold">Message Us</h2>
+        <!-- Section form + output -->
+        <section  class="py-10 bg-white w-full flex justify-center items-start">
+            <div class="max-w-5xl w-full grid md:grid-cols-2 gap-8">
+
+                <!-- Form -->
+                <form id="messageForm" class="space-y-4">
+
+                    <!-- Nama -->
+                    <div>
+                        <label for="nama" class="block mb-1 text-sm font-medium text-gray-700">Nama</label>
+                        <input type="text" id="nama" name="nama" class="w-full border p-2 rounded"
+                            placeholder="Masukkan Nama">
+                    </div>
+
+                    <!-- Email -->
+                    <div>
+                        <label for="email" class="block mb-1 text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" name="email" class="w-full border p-2 rounded"
+                            placeholder="Masukkan Email">
+                    </div>
+
+                    <!-- Tanggal Lahir -->
+                    <div>
+                        <label for="tglLahir" class="block mb-1 text-sm font-medium text-gray-700">Tanggal Lahir</label>
+                        <input type="date" id="tglLahir" name="tglLahir" class="w-full border p-2 rounded">
+                    </div>
+
+                    <!-- Jenis Kelamin -->
+                    <div>
+                        <label class="block mb-1 text-sm font-medium text-gray-700">Jenis Kelamin</label>
+                        <div class="flex gap-4">
+                            <label for="jk-laki" class="flex items-center gap-2">
+                                <input type="radio" id="jk-laki" name="jenisKelamin" value="Laki-laki"> Laki-laki
+                            </label>
+                            <label for="jk-perempuan" class="flex items-center gap-2">
+                                <input type="radio" id="jk-perempuan" name="jenisKelamin" value="Perempuan"> Perempuan
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Pesan -->
+                    <div>
+                        <label for="message" class="block mb-1 text-sm font-medium text-gray-700">Pesan</label>
+                        <textarea id="message" name="message" placeholder="Masukkan pesan"
+                            class="w-full border p-2 rounded h-24"></textarea>
+                    </div>
+
+                    <!-- Tombol -->
+                    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                        Simpan
+                    </button>
+                </form>
+
+                <!-- Output -->
+                <div class="border p-4 rounded bg-white shadow-sm text-sm text-gray-700" id="outputForm">
+                    <!-- Output form akan muncul di sini -->
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p class="text-center py-4 bg-gray-100 text-sm text-gray-500">&copy;2025 Aji Pamungkas. All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        function showModal(imageSrc) {
+            const modal = document.getElementById("modal");
+            const modalImage = document.getElementById("modalImage");
+            modalImage.src = imageSrc;
+            modal.classList.remove("hidden");
+        }
+
+        function closeModal() {
+            const modal = document.getElementById("modal");
+            modal.classList.add("hidden");
+        }
+
+        // Optional: tutup modal jika klik luar gambar
+        window.addEventListener('click', function (e) {
+            const modal = document.getElementById('modal');
+            if (e.target === modal) closeModal();
+        });
+    </script>
+</body>
+
+</html>
