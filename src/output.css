@@ -294,6 +294,24 @@
   .mt-\[-20px\] {
     margin-top: -20px;
   }
+  .mt-\[-30px\] {
+    margin-top: -30px;
+  }
+  .mt-\[-40px\] {
+    margin-top: -40px;
+  }
+  .mt-\[-50px\] {
+    margin-top: -50px;
+  }
+  .mt-\[-60px\] {
+    margin-top: -60px;
+  }
+  .mt-\[-90px\] {
+    margin-top: -90px;
+  }
+  .mt-\[-100px\] {
+    margin-top: -100px;
+  }
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
   }
@@ -355,6 +373,9 @@
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
+  .h-12 {
+    height: calc(var(--spacing) * 12);
+  }
   .h-15 {
     height: calc(var(--spacing) * 15);
   }
@@ -388,11 +409,23 @@
   .h-90 {
     height: calc(var(--spacing) * 90);
   }
+  .h-92 {
+    height: calc(var(--spacing) * 92);
+  }
+  .h-93 {
+    height: calc(var(--spacing) * 93);
+  }
+  .h-94 {
+    height: calc(var(--spacing) * 94);
+  }
   .h-95 {
     height: calc(var(--spacing) * 95);
   }
   .h-100 {
     height: calc(var(--spacing) * 100);
+  }
+  .h-120 {
+    height: calc(var(--spacing) * 120);
   }
   .h-full {
     height: 100%;
@@ -1121,6 +1154,11 @@
       height: calc(var(--spacing) * 100);
     }
   }
+  .sm\:h-\[250px\] {
+    @media (width >= 40rem) {
+      height: 250px;
+    }
+  }
   .sm\:h-full {
     @media (width >= 40rem) {
       height: 100%;
@@ -1139,6 +1177,11 @@
   .sm\:max-w-5xl {
     @media (width >= 40rem) {
       max-width: var(--container-5xl);
+    }
+  }
+  .sm\:max-w-fit {
+    @media (width >= 40rem) {
+      max-width: fit-content;
     }
   }
   .sm\:max-w-full {
