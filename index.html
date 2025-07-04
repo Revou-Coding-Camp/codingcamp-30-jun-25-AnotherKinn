@@ -138,6 +138,20 @@
     </header>
 
     <main>
+        <!-- Section headquarter -->
+        <section class="py-12 text-center shadow-md">
+            <h2 class="text-xl font-semibold mb-6 text-white">Tempat Tinggal </h2>
+            <div class="flex justify-center gap-8">
+                <div
+                    class="w-24 h-24 rounded-full border flex justify-center items-center bg-gray-400 border-gray-300 mx-auto hover:scale-110 transition">
+                    <p class="mt-2 text-white">Bogor</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
         <!-- Tentang Aji -->
         <section id="profile"
             class="py-20 px-6 max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center sm:grid-cols-1 sm:mx-auto shadow-lg">
@@ -176,9 +190,6 @@
                     perguruan tinggi.
                 </p>
             </div>
-            <!-- <div>
-                <img class="rounded-md" src="../assets/image.png" alt="">
-            </div> -->
             <!-- Logo Sekolah -->
             <div class="hidden md:block mt-6 rounded overflow-hidden">
                 <img class="w-[400px] h-90 items-center rounded-lg ml-16" src="./assets/profile_sekolah.jpg">
@@ -409,26 +420,7 @@
     <footer class="bg-[#132F4C]">
         <p class="text-center py-4 text-sm text-gray-500">&copy;2025 Aji Pamungkas. All rights reserved</p>
     </footer>
-    <script src="script.js"></script>
-    <script>
-        function showModal(imageSrc) {
-            const modal = document.getElementById("modal");
-            const modalImage = document.getElementById("modalImage");
-            modalImage.src = imageSrc;
-            modal.classList.remove("hidden");
-        }
-
-        function closeModal() {
-            const modal = document.getElementById("modal");
-            modal.classList.add("hidden");
-        }
-
-        // Optional: tutup modal jika klik luar gambar
-        window.addEventListener('click', function (e) {
-            const modal = document.getElementById('modal');
-            if (e.target === modal) closeModal();
-        });
-    </script>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>

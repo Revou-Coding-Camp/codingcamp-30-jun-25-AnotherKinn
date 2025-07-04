@@ -72,8 +72,27 @@ document.addEventListener("DOMContentLoaded", function () {
         hiName.innerHTML = `<h1 class="text-3xl font-bold text-white">Selamat Datang, ${data.nama}</h1>`;
     }
 });
-
+// Untuk menampilkan toggle button
 function toggleSidebar() {
     const sidebar = document.getElementById("sidebar");
     sidebar.classList.toggle("-translate-x-full");
 }
+
+// Untuk melihat detail sertifikat
+ function showModal(imageSrc) {
+            const modal = document.getElementById("modal");
+            const modalImage = document.getElementById("modalImage");
+            modalImage.src = imageSrc;
+            modal.classList.remove("hidden");
+        }
+
+        function closeModal() {
+            const modal = document.getElementById("modal");
+            modal.classList.add("hidden");
+        }
+
+        // Optional: tutup modal jika klik luar gambar
+        window.addEventListener('click', function (e) {
+            const modal = document.getElementById('modal');
+            if (e.target === modal) closeModal();
+        });
